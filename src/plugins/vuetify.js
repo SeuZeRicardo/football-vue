@@ -13,6 +13,7 @@ export default new Vuetify({
    */
   theme: {
     themes: {
+      dark: true,
       light: {
         primary: colors.green.darken1, //#4caf50
         secondary: '#ff5722',
