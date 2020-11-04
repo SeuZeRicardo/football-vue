@@ -1,28 +1,35 @@
 <template>
-  <v-app id="app">
+  <body id="app">
     <!-- MENU -->
     <Menu />
     <!-- MAIN CONTENT -->
-    <v-content>
-      <v-container fluid>
-        <router-view />
-      </v-container>
-    </v-content>    
-  </v-app>
+    <div>
+      <router-view />
+    </div>
+  </body>
 </template>
 
 <script>
-import Menu from '@/components/Menu';
+import Menu from "@/components/Menu/index.vue";
 
 export default {
   components: {
     Menu,
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss">
-  footer {
-    width: 100%;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
 </style>
