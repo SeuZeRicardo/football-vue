@@ -3,8 +3,10 @@
     <!-- MENU -->
     <Menu />
     <!-- MAIN CONTENT -->
-    <div>
-      <router-view />
+    <div class="main__content">
+      <div class="wrapper">
+        <router-view />
+      </div>
     </div>
   </body>
 </template>
@@ -31,5 +33,18 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+}
+
+.main__content {
+  margin-left: 90px;
+  background-color: #e5e5e5;
+  width: 100%;
+  max-width: calc(100vw - 90px);
+  height: 100%;
+  min-height: 100vh;
+}
+
+.wrapper {
+  margin: 0 15px;
 }
 </style>

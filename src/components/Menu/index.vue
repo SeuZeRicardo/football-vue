@@ -45,7 +45,7 @@ export default {
   width: 100%;
   height: 100vh;
   border-right: 1px solid grey;
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   z-index: 1;

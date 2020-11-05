@@ -26,7 +26,7 @@ export default {
   background-color: white;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: #a2a2a2 0px 0px 14px;
+  box-shadow: #d8d8d8 0px 0px 14px;
   width: 100%;
   text-align: center;
 }
