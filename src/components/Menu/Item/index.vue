@@ -7,7 +7,7 @@
         v-on:mouseover="showTooltip = true"
         v-on:mouseleave="showTooltip = false"
       >
-        <font-awesome-icon class="menu-icon" :icon="chooseIcon" size="lg" />
+        <FontAwesomeIcon class="menu-icon" :icon="chooseIcon" size="lg" />
       </div>
     </router-link>
     <Tooltip :text="text" :show="showTooltip" />
